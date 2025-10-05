@@ -124,3 +124,31 @@ article #info p{
     line-height: 1.6em;
     margin-bottom: 30px;
 }
+footer{
+    background-color: rgb(87, 87, 119);
+    text-align: center;
+    color:aliceblue;
+    padding: 15px;
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.2em;
+}
+.fab{
+    color: aliceblue;
+    font-size: 1.6em;
+    margin: 0 10px;
+    transition: 0.8s;
+}
+.fa-brands{
+    color: aliceblue;
+    font-size: 1.6em;
+    margin: 5px 10px;
+    transition: 0.8s;
+}
+.fab:hover{
+    color: coral;
+    transform: scale(1.5,1.5);
+}
+.fa-brands:hover{
+    color: coral;
+    transform: scale(1.5,1.5);
+}
