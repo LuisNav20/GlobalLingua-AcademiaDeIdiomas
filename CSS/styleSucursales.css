@@ -172,6 +172,7 @@ footer{
     font-size: 14px;
   }
   #img{
-    width: 100%;
+    width: 600px;
+    height: 500px;
   }
 }
