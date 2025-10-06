@@ -85,7 +85,7 @@ nav ul li a:hover{
     margin-bottom: 10px;
 }
 #img{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: center;
@@ -167,4 +167,12 @@ footer{
 .fa-brands:hover{
     color: coral;
     transform: scale(1.5,1.5);
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+  #img{
+    width: 100%;
+  }
 }

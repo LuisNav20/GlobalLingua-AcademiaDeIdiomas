@@ -84,6 +84,12 @@ nav ul li a:hover{
     color: coral;
     margin-bottom: 10px;
 }
+#img2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 article{
     border-radius: 15px;
     background-color: #ffffff;
@@ -160,4 +166,12 @@ footer{
 .fa-brands:hover{
     color: coral;
     transform: scale(1.5,1.5);
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+  #img{
+    width: 100%;
+  }
 }
